@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ============================================================
+     web.xml  –  Deployment Descriptor for The Golden Oven
+     Place this file inside:  WEB-INF/web.xml
+     ============================================================ -->
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+  <!-- Application display name shown in Tomcat manager -->
+  <display-name>The Golden Oven – Bakery Backend</display-name>
+
+  <!-- Default welcome page when someone visits the root URL -->
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+  <!--
+    No Servlets are registered here – we are using JSP only.
+    JSP files are handled automatically by Tomcat's JspServlet.
+    All form actions point directly to .jsp files.
+  -->
+
+</web-app>
