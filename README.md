@@ -40,7 +40,7 @@ Order data is submitted via a standard HTML form to a JSP backend, which connect
 - ✅ **Order confirmation page** showing order ID and saved details
 - 📱 **Fully responsive** design for mobile, tablet, and desktop
 
----
+--
 
 ## 🛠️ Tech Stack
 
